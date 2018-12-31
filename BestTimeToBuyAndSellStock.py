@@ -23,10 +23,12 @@ class Solution:
         
         profit = 0
         buyprice = prices[0]
+        
         for i in prices:
             if buyprice < i:
                 if profit < (i - buyprice):
                     profit = i - buyprice
             else:
                 buyprice = i
+                
         return profit
