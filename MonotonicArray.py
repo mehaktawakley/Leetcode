@@ -28,7 +28,6 @@ Note:
 1 <= A.length <= 50000
 -100000 <= A[i] <= 100000
 """
-
 class Solution:
     def isMonotonic(self, A):
         """
