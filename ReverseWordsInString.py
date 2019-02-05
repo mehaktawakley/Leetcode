@@ -5,4 +5,3 @@ class Solution:
         for i in s:
             b+= " " + (i[::-1])
         return (b[1:])
-
