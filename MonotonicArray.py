@@ -34,6 +34,7 @@ class Solution:
         :type A: List[int]
         :rtype: bool
         """
+        
         length = len(A)
         
         increasing = True
