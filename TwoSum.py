@@ -10,7 +10,7 @@ return [0, 1].
 """
 class Solution:
     def twoSum(self, nums, target):
-        a = { }
+        a = {}
         for j,i in enumerate(nums):
             temp = target - i
             if temp in a:
