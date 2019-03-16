@@ -11,11 +11,10 @@ Example 2:
 Input: "race a car"
 Output: false
 """
-
 class Solution:
     def isPalindrome(self, s):
         st = ""
         for i in s:
             if i.isalnum():
                 st+=i.lower()
-        return(st[::] == st[::-1])
+        return st[::] == st[::-1]
