@@ -18,7 +18,4 @@ Output: False
 
 class Solution:
     def detectCapitalUse(self, word):
-        if (word.isupper() or word.istitle() or word.islower()):
-            return (True)
-        else:
-            return (False)
+        return True if (word.isupper() or word.istitle() or word.islower()) else False
