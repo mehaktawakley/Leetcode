@@ -34,19 +34,14 @@ class Solution:
         :type A: List[int]
         :rtype: bool
         """
-        
         length = len(A)
-        
         increasing = True
         decreasing = True
-        
         if length == 0 or length == 1:
             return True
-           
         for i in range(length-1):
             if (A[i] < A[i+1]):
                 decreasing = False
             elif (A[i] > A[i+1]):
                 increasing = False
-                
         return increasing or decreasing
