@@ -15,7 +15,6 @@ Note that the order of those five elements can be arbitrary.
 It doesn't matter what values are set beyond the returned length.
 
 """
-
 class Solution:
     def removeElement(self, nums, val):
         index = 0
